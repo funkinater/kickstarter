@@ -120,6 +120,6 @@ describe("Campaigns", () => {
     balance = web3.utils.fromWei(balance, "ether");
     balance = parseFloat(balance);
 
-    assert(balance > 103);
+    assert(balance > 104);
   });
 });
