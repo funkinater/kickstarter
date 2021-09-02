@@ -15,7 +15,6 @@ const Layout = (props) => {
       </Head>
       <Header />
       {props.children}
-      <h2>I'm a footer</h2>
     </Container>
   );
 };
